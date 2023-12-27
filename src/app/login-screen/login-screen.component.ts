@@ -46,7 +46,7 @@ showError() {
 }
 
   check() {
-    if (this.psd == "444" && this.mail == "444") {
+    if (this.psd == "222" && this.mail == "222") {
       this.showSuccess();
     } else {
       this.showError();
