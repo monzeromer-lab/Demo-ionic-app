@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'ionic-app-base',
+  appId: 'com.monzeromer.demo',
+  appName: 'Demo Task',
   webDir: 'www',
   server: {
     androidScheme: 'https'

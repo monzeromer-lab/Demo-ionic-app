@@ -1,0 +1,96 @@
+<div class="g-text flex flex-col h-full w-full bg-neutral g-font">
+  <!-- Start Header -->
+  <header class="  flex flex-col g-font rtl pt-4 pb-4">
+    <div class="w-full flex flex-row justify-between">
+      <div class="p-1 g-icons">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+        </svg>
+      </div>
+
+      <img src="assets/Logo-1.png" alt="logo" class="w-17 h-8" />
+      <div class="w-8"></div>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- Login Form -->
+  <main class="w-full flex flex-col items-center text-slate-900">
+    <!-- Form title -->
+    <h1 class="pt-10 text-2xl g-text">مرحبا بعودتك</h1>
+    <p class="pt-3 text-sm g-text">سجل الدخول ليمكنك الوصول الى حسابك</p>
+    <!-- Form Inputs -->
+    <div class="flex flex-col w-10/12 mt-8">
+      <!-- Email -->
+      <label class="hidden" for="mail">mail</label>
+      <input placeholder="البريد الألكتروني" class="rounded p-2 g-input" type="email" name="email" id="mail">
+
+      <!-- Password -->
+      <div class="relative mt-3 flex flex-col justify-center">
+        <!-- Show password icon overlay -->
+        <!-- <div class="absolute left-2 g-icons">
+          @if(!showPwd) {
+          <svg (click)="showPwd = !showPwd" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M3.98 8.223A10.477 10.477 0 0 0 1.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.451 10.451 0 0 1 12 4.5c4.756 0 8.773 3.162 10.065 7.498a10.522 10.522 0 0 1-4.293 5.774M6.228 6.228 3 3m3.228 3.228 3.65 3.65m7.894 7.894L21 21m-3.228-3.228-3.65-3.65m0 0a3 3 0 1 0-4.243-4.243m4.242 4.242L9.88 9.88" />
+          </svg>
+          } @else {
+          <svg (click)="showPwd = !showPwd" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+          </svg>
+          }
+        </div> -->
+        <!-- End show password icon -->
+
+        <label class="hidden" for="pwd">pwd</label>
+        <input placeholder="كلمة المرور" class="w-full rounded p-2 g-input" type="password" name="password" id="pwd">
+      </div>
+
+      <a href="#" class="no-underline text-sm g-text text-right pt-2">نسيت كلمة المرور؟</a>
+      <button class="w-full btn-bg text-white p-3 rounded text-center text-lg pb-4 mt-5">التالي</button>
+
+      <!-- Or use social -->
+      <div class="flex flex-row justify-around items-center pt-3">
+        <hr class="g-hr h-px border w-5/12" />
+        <span class="text-base g-text">أو</span>
+        <hr class="g-hr h-px border w-5/12" />
+      </div>
+      <!-- Or use social end -->
+
+      <!-- Start social -->
+      <!-- Google -->
+      <div class="flex items-center justify-center mt-3">
+        <button
+          class="flex flex-row  justify-between w-full p-4  border gap-2 border-slate-200  rounded-lg text-slate-700 hover:text-slate-900  hover:shadow transition duration-150">
+          <img class="w-6 h-6" src="assets/google-color-svgrepo-com.svg" loading="lazy" alt="google logo">
+          <span class="text-right text-lg g-text">المتابعة باستخدام قوقل</span>
+        </button>
+      </div>
+
+      <!-- Facebook -->
+      <div class="flex items-center justify-center  ">
+        <button
+          class="flex flex-row justify-between w-full text-right p-4  mt-2 border gap-2 border-slate-200  rounded-lg text-slate-700 hover:text-slate-900  hover:shadow transition duration-150"
+          style="background-color: #1877F2;">
+          <img class="w-8 h-8 text-white" style="color: white;" src="assets/logo-facebook-svgrepo-com.svg" loading="lazy" alt="google logo">
+          <span class="text-right text-lg text-white">المتابعة باستخدام فيسبوك</span>
+        </button>
+      </div>
+      <!-- End social -->
+      <a href="#" class="no-underline text-sm g-text text-right pt-2">.المتابعة باستخدام رقم الهاتف</a>
+
+    <h1 class="pt-10 text-lg g-text text-center">ليس لديك حساب؟</h1>
+    <a href="#" class="pt-3 text-sm g-text text-center underline">التسجيل</a>
+
+    </div>
+  </main>
+  <!-- End Loign Form -->
+
+
+
+</div>

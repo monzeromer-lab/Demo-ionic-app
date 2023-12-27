@@ -1,5 +1,5 @@
 {
-  "name": "Tabs Starter",
+  "name": "Demo Task",
   "baseref": "main",
   "tarignore": [
     "node_modules",
